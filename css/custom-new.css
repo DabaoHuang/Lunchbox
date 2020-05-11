@@ -1,0 +1,158 @@
+/* constants */
+body {
+    font-family: 微軟正黑體;
+}
+
+main {
+    padding-top: 3.5rem!important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+i.index-icon, .color-custom,
+.navbar-dark .navbar-toggler {
+    color: #656464 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #656464 !important;
+}
+
+.bg-lunch {
+    background-color: #ffc31b !important;
+}
+
+li.nav-item:hover a.nav-link,
+i.index-icon:hover {
+    transition: all .3s;
+    color: white !important;
+}
+
+/* li.list-group-item {
+    cursor: pointer;
+} */
+
+li.list-group-item:hover {
+    transition: all .3s;
+    z-index: 2;
+    color: grey;
+    background-color: #fffdc8;
+    /* border-color: #fffdc8; */
+}
+
+div.jumbotron {
+   background: url('/images/index-title3.jpeg') no-repeat;
+   background-size: cover !important; 
+   background-attachment: fixed;
+   background-position: center; 
+}
+
+div.jumbotron.img-order {
+    background: url('/images/img-order.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+div.jumbotron.img-restaraunt {
+    background: url('/images/img-restaraunt.jpg') no-repeat !important;
+    background-size: cover !important;
+    /* background-position-y:  -20em !important */
+}
+
+div.jumbotron.img-list {
+    background: url('/images/img-list.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+div.jumbotron.img-release {
+    background: url('/images/img-release.jpg') no-repeat !important;
+    background-size: cover !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+div.r-menu,
+ul.list-group li.list-order,
+ul.list-group li.list-member {
+    transition: all .3s;
+    max-height: 0%;
+    height: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -999;
+    overflow: hidden;
+    padding: 0;
+}
+
+div.r-menu-show,
+li.list-order-show,
+li.list-member-show {
+    max-height: 100% !important;
+    display: flex !important;
+    pointer-events: all !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+    height: 100% !important;
+    padding: 24px ;
+}
+
+li.list-order-show,
+li.list-member-show {
+    padding: 12px !important;
+}
+
+div.r-menu-item:hover {
+    transition: all .3s;
+    color: #fff;
+    background: #656464;
+}
+
+a.nav-link {
+    font-weight: bold;
+}
+
+li.list-group-item.OrderLink {
+    cursor: pointer !important;
+}
+
+/* @media screen and (max-width: 1200px) {
+    .jumbotron { 
+        background-position-y: -30em !important;
+     }
+} */
+
+input[class^=OrderQtyInput] {
+    text-align: center;
+    max-width: 30px;
+    font-weight: bold;
+}
+
+span.CaculateTime {
+    color: #fa5e5e;
+}
+
+div.OrderItemBorder:not(:last-of-type) {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+span.UserName {
+    /* color: darkgreen; */
+    color: seagreen;
+    font-weight: bold;
+}
+
+span.DateTime {
+    color: seagreen;
+    font-weight: bold;
+}
+
+ul.list-group li.list-member {
+    margin-left: 1em;
+}
+
+ul.list-group li.list-order {
+    margin-left: 2em;
+}
